@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul, li, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    cursor: pointer;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+header .content{
+    width: 100%;
+    /* background-image: linear-gradient(to right, #0060AA 0%, #5AC3F0 98%); */
+}
+header .content img{
+    width: 100%;
+}
+
+main .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;    
+    background-image: linear-gradient(to right, #0060aa9c 0%, #5ac3f0a3 98%);
+}
+
+input.ViberButton {
+    width: 150px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.list-social li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.list-social li a {
+    font-family: 'FuturaPT-Demi';
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 7px 8px 10px;
+}
+.list-social li a img {
+    max-width: 20px;
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.list-social li:first-child {
+    background-color: #f39000;
+}
+
+.list-social li:nth-child(2) {
+    background-color: #4a73bd;
+}
+
+.list-social li:nth-child(3) {
+    background-color:  #02a7f5;
+}
+
+.list-social li:nth-child(4) {
+    background-color: #2ece4b ;
+}
+
+.list-social li:nth-child(5) {
+    background-color: #003a2b;
+}
+
